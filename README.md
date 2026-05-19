@@ -4,9 +4,9 @@
 
 <div align="center">
 
-![](https://img.shields.io/github/last-commit/mala-lab/RHO?color=green)
-![](https://img.shields.io/github/stars/mala-lab/RHO?color=yellow)
-![](https://img.shields.io/github/forks/mala-lab/RHO?color=lightblue)
+![](https://img.shields.io/github/last-commit/mala-lab/GraphNC?color=green)
+![](https://img.shields.io/github/stars/mala-lab/GraphNC?color=yellow)
+![](https://img.shields.io/github/forks/mala-lab/GraphNC?color=lightblue)
 ![](https://img.shields.io/badge/PRs-Welcome-green)
 [![arXiv](https://img.shields.io/badge/arXiv-2510.02014-b31b1b)](https://arxiv.org/abs/2510.02014)
 </div>
