@@ -25,16 +25,15 @@ To mitigate the misleading effects of inaccurate teacher scores, **NormReg** is 
 
 
 
-<div align="center"><img src="pipeline.png" width="92%"></div>
+<div align="center"><img src="framework.png" width="92%"></div>
 
 ## Key Highlights
 
-- We propose **VerifyMAS**, an error-first hypothesis verification framework for failure attribution in LLM-MAS. It decomposes failure attribution into error validation and fine-grained faulty agent localization, providing a principled solution for agentic failure attribution of both global and local errors.  
+- We introduce **GraphNC**, a novel **graph normality calibration framework** that leverages both **labeled normal nodes** and **unlabeled data** to calibrate normality learning from the teacher model in both the **score space** and **feature space** for **semi-supervised GAD**.
 
-- We propose a fine-tuning strategy tailored to the hypothesis verification approach, in which trajectory-level verification samples and agent-localization supervision are collected and leveraged to fine-tune an LLM verifier model under the VerifyMAS framework. This substantially enhances our model in failure diagnosis of in-distribution trajectories while preserving robust generalization to out-of-distribution trajectories. The dataset will be released to promote more advances in this line.  
+- In **GraphNC**, we introduce two new components: **anomaly score distribution alignment (ScoreDA)** and **perturbation-based normality regularization (NormReg)**. **ScoreDA** aligns the scores of our model with those of the pre-trained teacher model, which helps push the anomaly scores of the two classes toward **opposite ends**. Meanwhile, **NormReg** mitigates the impact of inaccurate teacher scores by enforcing **representation compactness among normal nodes** during alignment.
 
-- Extensive experiments on *Aegis-Bench* and *Who&When* demonstrate that VerifyMAS consistently improves diverse open-source and proprietary models. We further validate its effectiveness under the SFT setting, where hypothesis-verification-based fine-tuning strengthens in-distribution diagnostic ability while preserving out-of-distribution generalization.
-
+- **GraphNC** is a **flexible plug-and-play framework** where different teacher models can be incorporated, achieving **consistently enhanced GAD performance** across three types of teacher models, including **data reconstruction-based**, **one-class-based**, and **anomaly-generation-based** approaches.
 
 
 
