@@ -1,3 +1,7 @@
+
+<img src="logo_full.png" width="560">
+
+
 <div align="center">
   <h2><b> Normality Calibration in Semi-supervised Graph Anomaly Detection </b></h2>
 </div>
@@ -22,6 +26,22 @@ To mitigate the misleading effects of inaccurate teacher scores, **NormReg** is 
 
 
 
+<div align="center"><img src="pipeline.png" width="92%"></div>
+
+## Key Highlights
+
+- We propose **VerifyMAS**, an error-first hypothesis verification framework for failure attribution in LLM-MAS. It decomposes failure attribution into error validation and fine-grained faulty agent localization, providing a principled solution for agentic failure attribution of both global and local errors.  
+
+- We propose a fine-tuning strategy tailored to the hypothesis verification approach, in which trajectory-level verification samples and agent-localization supervision are collected and leveraged to fine-tune an LLM verifier model under the VerifyMAS framework. This substantially enhances our model in failure diagnosis of in-distribution trajectories while preserving robust generalization to out-of-distribution trajectories. The dataset will be released to promote more advances in this line.  
+
+- Extensive experiments on *Aegis-Bench* and *Who&When* demonstrate that VerifyMAS consistently improves diverse open-source and proprietary models. We further validate its effectiveness under the SFT setting, where hypothesis-verification-based fine-tuning strengthens in-distribution diagnostic ability while preserving out-of-distribution generalization.
+
+
+
+
+## Main Results
+
+<div align="center"><img src="main_table.png" width="98%"></div>
 
 
 
