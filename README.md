@@ -1,5 +1,5 @@
 
-<img src="logo_full.png" width="560">
+<img src="GraphNC logo.png" width="560">
 
 
 <div align="center">
