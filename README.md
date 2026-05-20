@@ -1,5 +1,5 @@
 <div align="center">
-<img src="GraphNC logo.png" width="460">
+<img src="GraphNC logo.png" width="260">
 
 
   <h2><b> Normality Calibration in Semi-supervised Graph Anomaly Detection </b></h2>
