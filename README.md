@@ -27,14 +27,6 @@ To mitigate the misleading effects of inaccurate teacher scores, **NormReg** is 
 
 
 
-## Main Results
-
-<div align="center"><img src="main_table.png" width="98%"></div>
-
-
-
-The code and model will be uploaded soon ! 
-
 
 
 ## 📖 Citation
