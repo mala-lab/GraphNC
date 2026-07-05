@@ -110,6 +110,9 @@ Training logs are saved to:
 ```text
 ggad_labeledNormal/{dataset}.txt
 ```
+## Main Results
+
+<div align="center"><img src="main_table.png" width="98%"></div>
 
 ## Project Structure
 
